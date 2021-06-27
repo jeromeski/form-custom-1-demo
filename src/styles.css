@@ -1,0 +1,49 @@
+.App {
+  height: 100vh;
+}
+
+.styles_wrapper {
+  height: 100%;
+  display: flex;
+  flex: 1 1 10%;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+
+.styles_error {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  max-width: 35%;
+  
+}
+
+form > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.form-item {
+  width: 100%;
+}
+
+input {
+display: flex;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+button {
+ display: block;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
